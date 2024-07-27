@@ -1,18 +1,19 @@
 body{
-    background: url(images/Rainbow_Gradient_Background.png) no-repeat center center fixed;
+    background: url(/images/Rainbow_Gradient_Background.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
+
 .container{
     display: grid;
     grid-template-columns: 1fr 1.3fr 1fr;
-    grid-template-rows:0 470px 930px 70px ;
+    grid-template-rows:0 470px 950px 70px ;
     padding: 20px;
     gap: 8px;
     margin: 0 auto;
-    width: 70%;
+    width: 90%;
     font-family: "Shadows Into Light Two";
     background-color: white;
     border-radius: 20px;
@@ -115,9 +116,9 @@ h4 {
 /*--- Photo Gallery Styling ---*/
 .gallery {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
     
 }
 
