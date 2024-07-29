@@ -3,120 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="style/projects.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light+Two&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/574810bef0.js" crossorigin="anonymous"></script>
     <title>Projects</title>
+
 </head>
 <body>
     <main>
-        <h1 align="center">Projects</h1>
-        <hr width="500px">
-        <nav align="center">
-    
-            <a href="index.html">Home</a>
-            &nbsp;
-            <a href="aboutme.html">About</a>
-            &nbsp;
-            <a href="projects.html">Projects</a>
-            &nbsp;
-            <a href="contact.html">Contact</a>
-        
-        </nav>
-        <br> <br>
-        
-        <h2> Finished Projects</h2>
-        <br>
+       <div class="container">  
+            <header> 
+                <nav>
+                    <div class="nav-controls">
+                        <a href="index.html">
+                            <i class="fa-solid fa-house fa-xl"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="nav-controls">
+                        <a href="aboutme.html">
+                            <i class="fa-solid fa-user fa-xl"></i>
+                        </a>
+                    </div>
 
-        <section class="finished_projects">
-            <div>
-                <figure>
-                    <h3>Spongebob Maze</h3>
-                    <a href="https://areiahna.gitlab.io/maze/" target="_blank">
-                        <img src="images/spongebob_maze.png" alt="spongebob_maze" width="300px">
-                    </a>
-                    <figcaption>A maze using arrays!! Built with HTML/CSS/JavaScript
-                    </figcaption>                 
-                </figure>
-            </div>
+                    <div class="nav-controls">
+                        <a href="projects.html">
+                            <i class="fa-solid fa-briefcase fa-xl"></i>
+                        </a>
+                    </div>
 
-            <div>
-                <figure>
-                    <h3>Connect Four</h3>
-                    <a href="https://areiahna.gitlab.io/connect-four" target="_blank">
-                        <img src="images/connect_four.png"alt="connect_four" 
-                        width="300px">
-                    </a>
-                    <figcaption>
-                        Connect 4 game using loops and conditionals built with HTML/CSS/JavaScript
-                    </figcaption>            
-                </figure>
-            </div>
+                    <div class="nav-controls">
+                        <a href="contact.html">
+                            <i class="fa-solid fa-envelope fa-xl"></i>
+                        </a>
+                    </div>
 
-            <div>
-                <figure>
-                    <h3>Todo List</h3>
-                    <a href="https://areiahna.gitlab.io/todo-part-3/" target="_blank">
-                        <img src="images/todo_app.png" alt="todo_app" width="300px">
-                    </a>
-                    <figcaption>
-                      A todo list application built with JavaScript & React
-                    </figcaption>
-                </figure>
-            </div>
+                </nav>
 
-            <div>
-                <figure>
-                    <h3>Score Board</h3>
-                    <a href="https://areiahna.gitlab.io/sportslab-hard/" target="_blank">
-                        <img src="images/score_board.png" alt="score_board" 
-                        width="300px">
-                    </a>
-                    <figcaption>
-                        A scoreboard application built with HTML/CSS/JavaScript
-                    </figcaption>
-                </figure>
-            </div>
+                <div>
+                    <h1>Projects</h1>
+                </div>
+                    
+            </header>
 
-        </section>
+            <section class="projects-gallery">
 
-        <h2>Archived Articles</h2>
-        <section class="articles">
-            <div>
-                <h3>Flexbox Cheat Guide</h3>
-                <article>
-                    A Complete Guide to Flexbox
-                    Our comprehensive guide to <br>CSS flexbox layout.
-                    This complete guide explains everything <br> about flexbox, focusing on all the different possible properties <br> for the parent element (the flex container) and the child elements <br> (the flex items). It also includes history, demos, patterns, and a <br>browser support chart. <br>
+                <div class="gallery-col-1">
+                    <div class="project-card">
+                        <a href="https://areiahna.gitlab.io/maze/" target="_blank">
+                            <figure>
+                                <h3>Spongebob Maze</h3>
 
-                    Avatar of Chris Coyier
-                    Chris Coyier on Apr 8, 2013 <br>(Updated on May 20, 2024)
-                    <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">Check it out!</a>
-                </article>
-            </div>
+                                    <img src="images/spongebob_maze.png" alt="spongebob_maze" width="300px">
 
-            <div>
-                <h3>Render ATL 2024</h3>
-            
-                <article>
+                                <br><br>
+                                <figcaption>A maze using arrays!! Built with HTML/CSS/JavaScript
+                                </figcaption>                 
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <a href="https://areiahna.gitlab.io/todo-part-3/" target="_blank">
+                            <figure>
+                                <h3>Todo List</h3>
+
+                                    <img src="images/todo_app.png" alt="todo_app" width="300px" height="215px">
+
+                                <br><br>
+                                <figcaption>
+                                A todo list application built with JavaScript & React
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="gallery-col-2">
+                    <div class="project-card">
+                        <a href="https://areiahna.gitlab.io/sportslab-hard/" target="_blank">
+                            <figure>
+                                <h3>Score Board</h3>
+
+                                    <img src="images/score_board.png" alt="score_board" 
+                                    width="300px" height="215px">
+
+                                <br><br>
+                                <figcaption>
+                                    A scoreboard application built with HTML/CSS/JavaScript
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <a href="https://areiahna.gitlab.io/connect-four/" target="_blank">
+                            <figure>
+                                <h3>Connect Four</h3>
+
+                                    <img src="images/connect_four.png" alt="score_board" 
+                                    width="300px" height="215px">
+                                
+                                <br><br>
+                                <figcaption>
+                                    Classic Connect Four game built using HTML/CSS/Javascript
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                
+
+            </section>
+
+            <section class="articles-gallery">
+                <div>
                     <a href="https://www.renderatl.com/2024-home" target="_blank">
-                        <img src="images/render_atl_2024.png" alt="render_atl2024">
+                        <h3>Render ATL 2024</h3>
+                        <article>
+                            <img src="images/render_atl_2024.png" alt="render_atl2024"width="300px" height="215px">
+                        </article>
                     </a>
-                    <br>
-                </article>
+                </div>
 
+                <div>
+                    <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">
+                        <h3>Flexbox Cheat Guide</h3>
+                        <article>
+                            A Complete Guide to Flexbox
+                            Our comprehensive guide to CSS flexbox layout.
+                            This complete guide explains everything about flexbox, focusing on all the different possible properties for the parent element (the flex container) and the child elements (the flex items). It also includes history, demos, patterns, and a browser support chart. <br>
+                
+                            &nbsp; <i>Avatar of Chris Coyier
+                            Chris Coyier on Apr 8, 2013 <br>&nbsp; (Updated on May 20, 2024)</i>
+                        </article>
+                    </a>
+                </div>
 
-            </div>
-            
-            <div>
-                <h3>Text to ASCII Generator</h3>
-                <article>
+                <div>
                     <a href="https://patorjk.com/software/taag/#p=display&f=Ogre&t=Calculator" target="_blank"> 
-                        <img src="images/patorjk.png" alt="patorjk_portfolio">
+                        <h3>Text to ASCII Generator</h3>
+                        <article>
+                            <img src="images/patorjk.png" alt="patorjk_portfolio" width="300px" height="215px">
+                        </article> 
                     </a>
-                </article>
+                </div>
 
-            </div>
-        </section>
-        
+            </section>
+
+            <footer>&copy;AreiahnaC</footer>
+            
+       </div>  
     </main>        
 </body>
 </html>

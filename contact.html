@@ -3,59 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/contact.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light+Two&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/574810bef0.js" crossorigin="anonymous"></script>
     <title>Contact</title>
 </head>
 <body>
-    <h1 align="center">Contact Me</h1>
+    <main>
+        <div class="container">
+            <header>
+                <nav>
+                    <div class="nav-controls">
+                        <a href="index.html">
+                            <i class="fa-solid fa-house fa-xl"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="nav-controls">
+                        <a href="aboutme.html">
+                            <i class="fa-solid fa-user fa-xl"></i>
+                        </a>
+                    </div>
 
-    <hr width="500px">
-    <nav align="center">
-        
-            <a href="index.html">Home</a>
-            &nbsp;
-            <a href="aboutme.html">About</a>
-            &nbsp;
-            <a href="projects.html">Projects</a>
-            &nbsp;
-            <a href="contact.html">Contact</a>
-        
-    </nav>
+                    <div class="nav-controls">
+                        <a href="projects.html">
+                            <i class="fa-solid fa-briefcase fa-xl"></i>
+                        </a>
+                    </div>
 
-    <header>
-        <b> <h4>My Socials: </h4></b>
+                    <div class="nav-controls">
+                        <a href="contact.html">
+                            <i class="fa-solid fa-envelope fa-xl"></i>
+                        </a>
+                    </div>
+                </nav>
+                <div>
+                    <h1>Contact Me</h1>
+                </div>
+            </header>
 
-        <a href="facebook.com" target="_blank">Facebook</a> |
-        <a href="Linkedin.com" tabindex="_blank">Linked in</a> |
-        <a href="github.com" tabindex="_blank">Github</a>
-    </header>
-    <br>
-
-    <section>
-        <form action="/contact.html">
-
-            <fieldset>
-                <legend>Contact form:</legend>
-                <br>
-                <label for="name">Name: </label>
-                <input type="text" name="name" id="name" required placeholder="Enter name">
-                <br><br>
-
-                <label for="email">Email: </label>
-                <input type="email" name="email" id="email" required placeholder="Enter email">
-                <br><br>
-
-                <label for="phone_number">Number: </label>
-                <input type="number" name="phone_number" id="phone_number" >
-                <br><br>
-
-                <label for="message">Message: </label>
-                <br>
-                <textarea name="message" id="message" rows="3" cols="30" placeholder="Enter message here" required></textarea>
-            </fieldset>
+            <section class="socials">
+                <b> <h3>My Socials: </h3></b>
+                
+                <div>
+                    <a href="facebook.com" target="_blank">Facebook</a> |
+                    <a href="Linkedin.com" tabindex="_blank">Linked in</a> |
+                    <a href="github.com" tabindex="_blank">Github</a>
+                </div>
             
-        </form>
-    </section>
+            </section>
 
+            <section class="contact-form">
+                <form action="/contact.html">
         
+                    <fieldset>
+                        <legend>Contact form:</legend>
+                        <br>
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" required placeholder="Enter name">
+                        <br><br>
+        
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" required placeholder="Enter email">
+                        <br><br>
+        
+                        <label for="phone_number">Number: </label>
+                        <input type="number" name="phone_number" id="phone_number" >
+                        <br><br>
+        
+                        <label for="message">Message: </label>
+                        <br>
+                        <textarea name="message" id="message" rows="3" cols="30" placeholder="Enter message here" required></textarea>
+                    </fieldset>
+                    
+                </form>
+            </section>
+            <footer>&copy;AreiahnaC</footer>
+        </div>
+    </main>        
 </body>
 </html>
